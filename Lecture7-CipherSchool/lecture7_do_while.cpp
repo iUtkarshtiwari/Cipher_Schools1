@@ -1,1 +1,12 @@
-Lecture6-III-CipherSchool/lecture6-III.cpp
+#include<iostream>
+using namespace std;
+
+int main(){
+	int password;
+	
+	do{
+		cin>>password;
+	}while(password<999999);
+	
+	return 0;
+}
