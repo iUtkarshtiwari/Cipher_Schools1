@@ -1,46 +1,75 @@
-#include<iostream>
-using namespace std;
-int main(){
+#include <iostream>
+using namespace std; 
+int main() {
     
-    //  THIS IS IF ELSE STATEMENT
+    // float a,b;
+    // cout<<"give two floating point numbers as input"<<endl;
+    // cin>>a>>b;
+    // //conditional statements
+    // if(a>0.01 && b>a)
+    // {
+    //     cout<<"The condition in if statement is correct. ";
+    // }
+    
+    // else if(a>0.01 || b>a)
+    // {
+    //     cout<<"The condition in  else if statement is correct. ";
+    // }
+    
+//     int marks;
+//     cout<<"student, please enter the marks to calculate the grade:";
+    
+//     cin>>marks;
+//     cout<<"the calculated grade is: ";
+//     if(marks>90){
+//         cout<<"A";
+//     }
+    
+//     else if( marks>80){
+//         cout<<"B";
+//     }
+    
+//   else if( marks>70){
+//         cout<<"C";
+//     }
+//     else {
+//         cout<<"Pass";
+//     }
 
-    int age;
-    cout<<"enter your age : ";
-    cin>>age;
+// int a,b,c,d;
 
-    if(age>=18){
-        cout<<"you are adult and you can drive";
-    }
-    else if(age>=14 || age<18){
-        cout<<"you are a teenager";
-    }
-    else{
-        cout<<"you are not eligible to drive";
-    }
-    cout<<endl;
-    //Swtich case statement
+// cout<<"give four integers as input: a,b,c,d"<<endl;
+// cin>>a>>b>>c>>d;
 
-    int marks;
-    cin>>marks;
-    switch (marks)
+// if(a>b && c>d){
+//     cout<<"Haha";
+// }
+//     else if(a>b && c<d){
+//         cout<<"Hehe";
+//     }
+//     else if(a<b && c>d){
+//         cout<<"Huhu";
+//     }
 
-    {
-    case 90:
-    cout<<"your grade is O ";
+//for switch conditions 
+int a;
+
+cout<<"enter an integer:";
+
+cin>>a;
+
+switch(a){
+    case 1:
+    cout<<"the value of a is 1";
     break;
-    case 60:
-    cout<<"your grade is B+ ";
+    
+    case 2:
+    cout<<"the value of a is 2";
     break;
-    case 70:
-    cout<<"your grade is A ";
-    break;
-    case 80:
-    cout<<"your grade is A+ ";
-    break;
+    
     default:
-    cout<<"you did not appeared for exams ";
+    cout<<"default will be always printed";
     break;
-    }
-
+}
     return 0;
 }
